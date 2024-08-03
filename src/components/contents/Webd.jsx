@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Webd = () => {
+const webd = () => {
   return (
     <div>
-      Webd
+      webd
     </div>
   )
 }
 
-export default Webd
+export default webd
