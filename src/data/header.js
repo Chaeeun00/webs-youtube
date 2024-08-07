@@ -23,11 +23,6 @@ export const headerMenus = [
         src: "/today"
     },
     {
-        title: "추천 개발자",
-        icon: <DiApple />,
-        src: "/developer"
-    },
-    {
         title: "日本の歌",
         icon: <IoMdMusicalNotes />,
         src: "/webd"
@@ -46,6 +41,11 @@ export const headerMenus = [
         title: "日本語リスニング",
         icon: <TiStarFullOutline />,
         src: "/port"
+    },
+    {
+        title: "추천 개발자",
+        icon: <DiApple />,
+        src: "/developer"
     },
     {
         title: "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭",
