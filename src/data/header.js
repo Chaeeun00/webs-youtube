@@ -1,11 +1,11 @@
-import { CiHeart } from "react-icons/ci";
-import { CiApple } from "react-icons/ci";
-import { CiDesktopMouse1 } from "react-icons/ci";
-import { CiDesktop } from "react-icons/ci";
-import { CiLemon } from "react-icons/ci";
-import { CiFaceSmile } from "react-icons/ci";
-import { CiYoutube } from "react-icons/ci";
-import { CiBookmark } from "react-icons/ci";
+import { BiHeart } from "react-icons/bi";
+import { DiApple } from "react-icons/di";
+import { IoMdMusicalNotes } from "react-icons/io";
+import { BiBadge } from "react-icons/bi";
+import { GoPencil } from "react-icons/go";
+import { TiStarFullOutline } from "react-icons/ti";
+import { FcMusic } from "react-icons/fc";
+import { PiCatDuotone } from "react-icons/pi";
 import { AiFillGithub } from "react-icons/ai";
 import { AiOutlineCodepen } from "react-icons/ai";
 import { AiFillYoutube } from "react-icons/ai";
@@ -14,42 +14,42 @@ import { AiOutlineInstagram } from "react-icons/ai";
 export const headerMenus = [
     {
         title: "송채은",
-        icon: <CiHeart />,
+        icon: <PiCatDuotone />,
         src: "/"
     },
     {
         title: "추천 영상",
-        icon: <CiBookmark />,
+        icon: <BiHeart />,
         src: "/today"
     },
     {
         title: "추천 개발자",
-        icon: <CiApple />,
+        icon: <DiApple />,
         src: "/developer"
     },
     {
-        title: "웹 디자인 기능사",
-        icon: <CiDesktopMouse1 />,
+        title: "日本の歌",
+        icon: <IoMdMusicalNotes />,
         src: "/webd"
     },
     {
-        title: "웹 표준 사이트",
-        icon: <CiDesktop />,
+        title: "아따맘마(あたしンち)",
+        icon: <BiBadge />,
         src: "/website"
     },
     {
-        title: "GSAP Parallax",
-        icon: <CiLemon />,
+        title: "一日10分日本語",
+        icon: <GoPencil />,
         src: "/gsap"
     },
     {
-        title: "포트폴리오 사이트",
-        icon: <CiFaceSmile />,
+        title: "日本語リスニング",
+        icon: <TiStarFullOutline />,
         src: "/port"
     },
     {
-        title: "유튜브 클론 사이트",
-        icon: <CiYoutube />,
+        title: "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭",
+        icon: <FcMusic />,
         src: "/youtube"
     },
 ];
