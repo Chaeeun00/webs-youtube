@@ -4,18 +4,24 @@ import { IoMdMusicalNotes } from "react-icons/io";
 import { BiBadge } from "react-icons/bi";
 import { GoPencil } from "react-icons/go";
 import { TiStarFullOutline } from "react-icons/ti";
-import { FcMusic } from "react-icons/fc";
+import { GiHeartKey } from "react-icons/gi";
 import { PiCatDuotone } from "react-icons/pi";
 import { AiFillGithub } from "react-icons/ai";
 import { AiOutlineCodepen } from "react-icons/ai";
 import { AiFillYoutube } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
+import { PiCatFill } from "react-icons/pi";
 
 export const headerMenus = [
     {
         title: "송채은",
-        icon: <PiCatDuotone />,
+        icon: <PiCatFill />,
         src: "/"
+    },
+    {
+        title: "ちぇうんのおすすめ",
+        icon: <PiCatDuotone />,
+        src: "/developer2"
     },
     {
         title: "추천 영상",
@@ -28,7 +34,7 @@ export const headerMenus = [
         src: "/webd"
     },
     {
-        title: "아따맘마(あたしンち)",
+        title: "아따맘마(あたしんち)",
         icon: <BiBadge />,
         src: "/website"
     },
@@ -43,14 +49,14 @@ export const headerMenus = [
         src: "/port"
     },
     {
+        title: "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭",
+        icon: <GiHeartKey />,
+        src: "/youtube"
+    },
+    {
         title: "추천 개발자",
         icon: <DiApple />,
         src: "/developer"
-    },
-    {
-        title: "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭",
-        icon: <FcMusic />,
-        src: "/youtube"
     },
 ];
 

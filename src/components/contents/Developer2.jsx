@@ -6,11 +6,11 @@ import { Link } from 'react-router-dom';
 import 'swiper/css';
 import 'swiper/css/autoplay';
 
-const Developer = ({ videos, title, id }) => {
+const Developer2 = ({ videos, title, id }) => {
     return (
         <section id={id}>
             <h2>{title}</h2>
-            <div className='developer__inner'>
+            <div className='develpoer2__inner'>
                 <Swiper
                     slidesPerView={4}
                     spaceBetween={15}
@@ -47,19 +47,14 @@ const Developer = ({ videos, title, id }) => {
                     modules={[Autoplay]}
                     className='mySwiper'
                 >
-                    {videos.map((developer, key) => (
+                    {videos.map((Developer2, key) => (
                         <SwiperSlide key={key}>
-                            <div className='developer'>
-                                <div className='developer__img play__icon'>
-                                    <Link to={`/video/${developer.videoId}`}> {/* 비디오 상세 페이지로 이동하도록 Link 추가 */}
-                                        <img src={developer.img} alt={developer.name} />
+                            <div className='developer2'>
+                                <div className='developer2__img play__icon'>
+                                    <Link to={`/video/${Developer2.videoId}`}> {/* 비디오 상세 페이지로 이동하도록 Link 추가 */}
+                                        <img src={Developer2.img} alt={Developer2.name} />
                                     </Link>
-                                </div>
-                                <div className="developer__info">
-                                    <Link to={`/channel/${developer.channelId}`}>
-                                        {developer.name}
-                                    </Link>
-                                </div>
+                                </div>  
                             </div>
                         </SwiperSlide>
                     ))}
@@ -69,4 +64,4 @@ const Developer = ({ videos, title, id }) => {
     );
 };
 
-export default Developer;
+export default Developer2;
