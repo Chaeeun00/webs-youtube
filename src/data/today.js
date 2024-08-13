@@ -15,7 +15,7 @@ export const todayText = [
         author : "먼가 작고 귀여운 녀석",
         channelId: "UCBTSkFNWmoOkBeZwANcbiIA",
         date: "2024.05.11",
-        page: "/youtube"
+        page: "/"
     },{
         img: todayView02,
         title: "🐱ちいかわ🐱 혼잣말",
@@ -23,7 +23,7 @@ export const todayText = [
         author : "먼가 작고 귀여운 녀석",
         channelId: "UCBTSkFNWmoOkBeZwANcbiIA",
         date: "2024.05.18",
-        page: "/port"
+        page: "/"
     },{
         img: todayView03,
         title: "🐹ちいかわ🐹 포쉐트, 쓰고 있어요",
@@ -31,7 +31,7 @@ export const todayText = [
         author : "먼가 작고 귀여운 녀석",
         channelId: "UCBTSkFNWmoOkBeZwANcbiIA",
         date: "2024.05.25",
-        page: "/port"
+        page: "/"
     },{
         img: todayView04,
         title: "🌰ちいかわ🌰 밤만쥬, 개복치 타기",
@@ -39,7 +39,7 @@ export const todayText = [
         author : "먼가 작고 귀여운 녀석",
         channelId: "UCBTSkFNWmoOkBeZwANcbiIA",
         date: "2024.06.01",
-        page: "/port"
+        page: "/"
     },{
         img: todayView05,
         title: "🐹ちいかわ🐹 아침 체조",
@@ -47,7 +47,7 @@ export const todayText = [
         author : "먼가 작고 귀여운 녀석",
         channelId: "UCBTSkFNWmoOkBeZwANcbiIA",
         date: "2024.06.08",
-        page: "/port"
+        page: "/"
     },{
         img: todayView06,
         title: "🐹ちいかわ🐹 도시락, 잠옷입니다",
@@ -55,7 +55,7 @@ export const todayText = [
         author : "먼가 작고 귀여운 녀석",
         channelId: "UCBTSkFNWmoOkBeZwANcbiIA",
         date: "2024.06.15",
-        page: "/gsap"
+        page: "/"
     },{
         img: todayView07,
         title: "🐹ちいかわ🐹 축하해",
@@ -63,7 +63,7 @@ export const todayText = [
         author : "먼가 작고 귀여운 녀석",
         channelId: "UCBTSkFNWmoOkBeZwANcbiIA",
         date: "2024.06.22",
-        page: "/webd"
+        page: "/"
     },{
         img: todayView08,
         title: "🐹ちいかわ🐹 후리카케, 갓 지은 밥",
@@ -71,6 +71,6 @@ export const todayText = [
         author : "먼가 작고 귀여운 녀석",
         channelId: "UCBTSkFNWmoOkBeZwANcbiIA",
         date: "2024.06.29",
-        page: "/website"
+        page: "/"
     },
 ]
