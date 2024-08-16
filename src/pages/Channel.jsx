@@ -4,11 +4,11 @@ import Main from '../components/section/Main';
 import { CiBadgeDollar, CiMedal, CiRead } from "react-icons/ci";
 
 const Channel = () => {
-    const { channelId } = useParams(); // URL 파라미터에서 채널 ID를 가져옵니다.
-    const [channelDetail, setChannelDetail] = useState(null); // 채널 정보를 저장할 상태.
-    const [videos, setVideos] = useState([]); // 동영상 목록을 저장할 상태.
-    const [loading, setLoading] = useState(true); // 로딩 상태를 관리.
-    const [error, setError] = useState(null); // 오류 상태를 관리.
+    const { channelId } = useParams(); // URL 파라미터에서 채널 ID
+    const [channelDetail, setChannelDetail] = useState(null); // 채널 정보를 저장
+    const [videos, setVideos] = useState([]); // 동영상 목록을 저장
+    const [loading, setLoading] = useState(true); // 로딩 상태
+    const [error, setError] = useState(null); // 오류 상태
 
     useEffect(() => {
         const fetchChannelDetail = async () => {
