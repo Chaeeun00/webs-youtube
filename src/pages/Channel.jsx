@@ -21,7 +21,7 @@ const Channel = () => {
                 const channelData = await channelResponse.json();
                 const channel = channelData.items[0];
                 
-                // 채널의 업로드 재생 목록 ID를 가져옵니다.
+                // 채널의 업로드 재생 목록 ID를 가져오기
                 const uploadPlaylistId = channel.contentDetails.relatedPlaylists.uploads;
 
                 // 업로드 재생 목록의 동영상 가져오기
@@ -37,7 +37,7 @@ const Channel = () => {
                 console.error('데이터를 가져오는 중 오류 발생:', error);
                 setError('데이터를 가져오는 중 오류가 발생했습니다.');
             } finally {
-                setLoading(false); // 로딩 상태 해제.
+                setLoading(false); // 로딩 상태 해제
             }
         };
 
@@ -87,5 +87,3 @@ const Channel = () => {
 };
 
 export default Channel;
-
-
