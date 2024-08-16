@@ -15,7 +15,7 @@ export const todayText = [
         author : "먼가 작고 귀여운 녀석",
         channelId: "UCBTSkFNWmoOkBeZwANcbiIA",
         date: "2024.05.11",
-        page: "/"
+        page: "video/iysnbOGpvAU&t=1s"
     },{
         img: todayView02,
         title: "🐱ちいかわ🐱 혼잣말",
@@ -23,7 +23,7 @@ export const todayText = [
         author : "먼가 작고 귀여운 녀석",
         channelId: "UCBTSkFNWmoOkBeZwANcbiIA",
         date: "2024.05.18",
-        page: "/"
+        page: "video/GKC1P0mCt4o&list=PLsmaUhkCwW3q5q46uc9So2b4D-pZqVZOV"
     },{
         img: todayView03,
         title: "🐹ちいかわ🐹 포쉐트, 쓰고 있어요",
@@ -31,7 +31,7 @@ export const todayText = [
         author : "먼가 작고 귀여운 녀석",
         channelId: "UCBTSkFNWmoOkBeZwANcbiIA",
         date: "2024.05.25",
-        page: "/"
+        page: "video/RVG38PfaBP0"
     },{
         img: todayView04,
         title: "🌰ちいかわ🌰 밤만쥬, 개복치 타기",
@@ -39,7 +39,7 @@ export const todayText = [
         author : "먼가 작고 귀여운 녀석",
         channelId: "UCBTSkFNWmoOkBeZwANcbiIA",
         date: "2024.06.01",
-        page: "/"
+        page: "video/5dTRQblIt-Q&t=7s"
     },{
         img: todayView05,
         title: "🐹ちいかわ🐹 아침 체조",
@@ -47,7 +47,7 @@ export const todayText = [
         author : "먼가 작고 귀여운 녀석",
         channelId: "UCBTSkFNWmoOkBeZwANcbiIA",
         date: "2024.06.08",
-        page: "/"
+        page: "video/qJjz52K0ZvE"
     },{
         img: todayView06,
         title: "🐹ちいかわ🐹 도시락, 잠옷입니다",
@@ -55,7 +55,7 @@ export const todayText = [
         author : "먼가 작고 귀여운 녀석",
         channelId: "UCBTSkFNWmoOkBeZwANcbiIA",
         date: "2024.06.15",
-        page: "/"
+        page: "video/McD0o5tREj0"
     },{
         img: todayView07,
         title: "🐹ちいかわ🐹 축하해",
@@ -63,7 +63,7 @@ export const todayText = [
         author : "먼가 작고 귀여운 녀석",
         channelId: "UCBTSkFNWmoOkBeZwANcbiIA",
         date: "2024.06.22",
-        page: "/"
+        page: "video/NrjwVKThap0"
     },{
         img: todayView08,
         title: "🐹ちいかわ🐹 후리카케, 갓 지은 밥",
@@ -71,6 +71,6 @@ export const todayText = [
         author : "먼가 작고 귀여운 녀석",
         channelId: "UCBTSkFNWmoOkBeZwANcbiIA",
         date: "2024.06.29",
-        page: "/"
+        page: "video/fQ2GVLfmxlU"
     },
 ]
