@@ -62,48 +62,60 @@ export const headerMenus = [
 
 export const searchKeyword = [
     {
-        title: "webstoryboy",
-        src: "/search/webstoryboy"
+        title: "日本語",
+        src: "/search/일본어"
     },
     {
-        title: "HTML",
-        src: "/search/html"
+        title: "アニメ",
+        src: "/search/애니메이션"
     },
     {
-        title: "CSS",
-        src: "/search/css"
+        title: "映画",
+        src: "/search/영화"
     },
     {
-        title: "JavaScript",
-        src: "/search/javascript"
+        title: "Java",
+        src: "/search/자바"
+    },
+    {
+        title: "JavaSpringBoot",
+        src: "/search/자바스프링부트"
+    },
+    {
+        title: "Javascript",
+        src: "/search/자바스크립트"
     },
     {
         title: "React.js",
-        src: "/search/react.js"
+        src: "/search/리액트"
     },
     {
-        title: "Vue.js",
-        src: "/search/vue.js"
+        title: "スタジオジブリ",
+        src: "/search/지브리"
     },
     {
-        title: "Next.js",
-        src: "/search/next.js"
+        title: "ちいかわ",
+        src: "/search/치이카와"
     },
     {
-        title: "Node.js",
-        src: "/search/node.js"
+        title: "PlayList",
+        src: "/search/playlist"
     },
     {
-        title: "SQL",
-        src: "/search/sql"
+        title: "Piano",
+        src: "/search/피아노"
     },
     {
-        title: "portfolio",
-        src: "/search/React Portfolio"
+        title: "K-POP",
+        src: "/search/K-POP"
     },
     {
-        title: "music",
-        src: "/search/NewJeans"
+        title: "J-POP",
+        src: "/search/J-POP"
+    },
+    {
+        title: "News",
+        src: "/search/뉴스"
     }
 ];
 
