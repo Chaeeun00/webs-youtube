@@ -7,7 +7,7 @@ import { TiStarFullOutline } from "react-icons/ti";
 import { GiHeartKey } from "react-icons/gi";
 import { PiCatDuotone } from "react-icons/pi";
 import { AiFillGithub } from "react-icons/ai";
-import { AiOutlineCodepen } from "react-icons/ai";
+import { IoSchool } from "react-icons/io5";
 import { AiFillYoutube } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { PiCatFill } from "react-icons/pi";
@@ -110,22 +110,22 @@ export const searchKeyword = [
 export const snsLink = [
     {
         title: "github",
-        url: "https://github.com/webstoryboy",
+        url: "https://github.com/Chaeeun00",
         icon: <AiFillGithub />
     },
     {
         title: "youtube",
-        url: "https://www.youtube.com/webstoryboy",
+        url: "https://www.youtube.com/@user-vk4jc4ez5g",
         icon: <AiFillYoutube />
     },
     {
-        title: "codepen",
-        url: "https://codepen.io/webstoryboy",
-        icon: <AiOutlineCodepen />
+        title: "instagram",
+        url: "https://www.instagram.com/s_songg/",
+        icon: <AiOutlineInstagram />
     },
     {
-        title: "instagram",
-        url: "https://www.instagram.com/webstoryboy",
-        icon: <AiOutlineInstagram />
+        title: "music",
+        url: "https://www.bu.ac.kr/sites/web/intro/intro.html",
+        icon: <IoSchool />
     },
 ]
