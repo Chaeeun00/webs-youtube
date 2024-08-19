@@ -10,7 +10,7 @@ const Developer2 = ({ videos, title, id }) => {
     return (
         <section id={id}>
             <h2>{title}</h2>
-            <div className='develpoer2__inner'>
+            <div className='developer2__inner'>
                 <Swiper
                     slidesPerView={4}
                     spaceBetween={15}
@@ -47,14 +47,19 @@ const Developer2 = ({ videos, title, id }) => {
                     modules={[Autoplay]}
                     className='mySwiper'
                 >
-                    {videos.map((Developer2, key) => (
+                    {videos.map((developer2, key) => (
                         <SwiperSlide key={key}>
                             <div className='developer2'>
                                 <div className='developer2__img play__icon'>
-                                    <Link to={`/video/${Developer2.videoId}`}> {/* 비디오 상세 페이지로 이동하도록 Link 추가 */}
-                                        <img src={Developer2.img} alt={Developer2.name} />
+                                    <Link to={`/channel/${developer2.channelId}`}> {/* 비디오 상세 페이지로 이동하도록 Link 추가 */}
+                                        <img src={developer2.img} alt={developer2.name} />
                                     </Link>
-                                </div>  
+                                </div>
+                                <div className="developer2__info">
+                                    <Link to={`/channel/${developer2.channelId}`}>
+                                        {developer2.name}
+                                    </Link>
+                                </div>
                             </div>
                         </SwiperSlide>
                     ))}

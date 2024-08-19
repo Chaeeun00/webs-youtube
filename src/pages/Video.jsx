@@ -36,7 +36,7 @@ const Video = () => {
 
     return (
         <Main 
-            title="유튜브 영상🐰"
+            title="유튜브 영상"
             description="유튜브 영상을 볼 수 있습니다."
         >
             <section id='videoViewPage'>

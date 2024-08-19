@@ -17,7 +17,7 @@ const Website = () => {
 
     return (
         <Main 
-            title = "아따맘마(あたしんち）"
+            title = "아따맘마(あたしんち）🩶"
             description="あたしんちです。">
             
             <section id='websitePage' className={websitePageClass}>

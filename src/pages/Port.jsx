@@ -17,7 +17,7 @@ const Port = () => {
 
     return (
         <Main 
-            title = "日本語リスニング"
+            title = "日本語リスニング 🩶"
             description="日本語リスニングです。">
             
             <section id='portPage' className={portPageClass}>

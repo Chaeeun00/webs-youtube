@@ -17,7 +17,7 @@ const Gsap = () => {
 
     return (
         <Main 
-            title = "一日10分日本語"
+            title = "一日10分日本語 🩶"
             description="一日10分日本語です。">
             
             <section id='gsapPage' className={gsapPageClass}>

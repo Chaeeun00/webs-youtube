@@ -17,7 +17,7 @@ const Webd = () => {
 
     return (
         <Main 
-            title = "日本の歌"
+            title = "日本の歌 🩶"
             description="日本の歌です。">
 
             <section id='webdPage' className={webdPageClass}>

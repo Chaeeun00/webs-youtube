@@ -5,6 +5,7 @@ import Main from './components/section/Main';
 const Home = lazy(() => import('./pages/Home'));
 const Today = lazy(() => import('./pages/Today'));
 const Developer = lazy(() => import('./pages/Developer'));
+const Developer2 = lazy(() => import('./pages/Developer2'));
 const Webd = lazy(() => import('./pages/Webd'));
 const Website = lazy(() => import('./pages/Website'));
 const Gsap = lazy(() => import('./pages/Gsap'));
@@ -23,6 +24,7 @@ const App = () => {
                   <Route path='/' element={<Home />} />
                   <Route path="/today" element={<Today />} />
                   <Route path="/developer" element={<Developer />} />
+                  <Route path="/developer2" element={<Developer2 />} />
                   <Route path="/webd" element={<Webd />} />
                   <Route path="/website" element={<Website />} />
                   <Route path="/gsap" element={<Gsap />} />

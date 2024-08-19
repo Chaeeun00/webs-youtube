@@ -17,7 +17,7 @@ const Youtube = () => {
 
     return (
         <Main 
-            title = "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭"
+            title = "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 🩶"
             description="𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭">
 
             <section id='youtubePage' className={youtubePageClass}>

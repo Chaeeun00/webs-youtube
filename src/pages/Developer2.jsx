@@ -1,16 +1,25 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Main from '../components/section/Main'
 
 import { developer2Text } from '../data/developer2'
 import { Link } from 'react-router-dom'
 
 const Developer2 = () => {
-  return (
+    const [loading, setLoading] = useState(true); 
+
+    useEffect(() => {
+        setTimeout(() => {
+            setLoading(false);
+        }, 300);
+    }, []);
+
+    const developer2PageClass = loading ? 'isLoading' : 'isLoaded';
+   return (
     <Main
-      title = "추천 개발자🐰"
-      description = "추천 개발자 유튜버입니다.">
-      <section id='developer2Page'>
-                <h2>🍎 추천 개발자입니다.</h2>
+      title = "ちぇうんのおすすめ 🩶"
+      description = "ちぇうんのおすすめです。">
+      <section id='developer2Page'className={developer2PageClass}>
+                <h2>🧸 ちぇうんのおすすめ</h2>
                 <div className="developer2__inner">
                     {developer2Text.map((developer2, key) => (
                         <div className="developer2" key={key}>

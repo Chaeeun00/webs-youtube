@@ -16,7 +16,7 @@ const Developer = () => {
     const developerPageClass = loading ? 'isLoading' : 'isLoaded';
    return (
     <Main
-      title = "추천 개발자🐰"
+      title = "추천 개발자 🩶"
       description = "추천 개발자 유튜버입니다.">
       <section id='developerPage'className={developerPageClass}>
                 <h2>🍎 추천 개발자입니다.</h2>
