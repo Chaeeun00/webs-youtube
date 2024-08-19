@@ -51,7 +51,7 @@ const Developer = ({ videos, title, id }) => {
                         <SwiperSlide key={key}>
                             <div className='developer'>
                                 <div className='developer__img play__icon'>
-                                    <Link to={`/video/${developer.videoId}`}> {/* 비디오 상세 페이지로 이동하도록 Link 추가 */}
+                                    <Link to={`/channel/${developer.channelId}`}> {/* 비디오 상세 페이지로 이동하도록 Link 추가 */}
                                         <img src={developer.img} alt={developer.name} />
                                     </Link>
                                 </div>

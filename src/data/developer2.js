@@ -96,10 +96,10 @@ export const developer2Text = [
         channelId: "UCiX6OYCWiCKZ1SBfSfcXIuw"
     },
     {
-        img: "https://yt3.googleusercontent.com/ytc/AIdro_kpJcHTNsXIyP9InMF-_44iJ-Rh-3jeBARK-sQaEN8=s160-c-k-c0x00ffffff-no-rj",
-        name: "김주빈",
-        channelAddress: "https://www.youtube.com/@user-fb3tk3zn6m/featured",
-        channelId: "UCEFbel1niihF9A5I4k7ddEg"
+        img: "https://yt3.googleusercontent.com/ytc/AIdro_mWJscCV6Ui3iwjfj4biMAZTNL3M8oTxynK9qFezykCfvI=s160-c-k-c0x00ffffff-no-rj",
+        name: "허챠밍",
+        channelAddress: "https://www.youtube.com/@charmingheo",
+        channelId: "UCOmmq9GmT3rdNDYM8PUY8rg"
     },
     {
         img: "https://yt3.googleusercontent.com/TabamIuBxXU_N5m_hPbQbIZAvAhgKI5VD5Lb87afjB4fW8uZ42cnvAebnv8OxGsK1m4ijj0Hlg=s160-c-k-c0x00ffffff-no-rj",
@@ -116,7 +116,7 @@ export const developer2Text = [
     {
         img: "https://yt3.googleusercontent.com/UQoqkXDdxv7y4v4fLqxzwWoLHDnfmowrDeEsZjcNGUs5ucQuA54w8JFECj5I0IPOh_Bdr5w_=s160-c-k-c0x00ffffff-no-rj",
         name: "덕양소",
-        channelAddress: "https://www.youtube.com/@dukyangso/featured",
+        channelAddress: "https://www.youtube.com/@dukyangso",
         channelId: "UCYH0isveXrujjCH4Z2F4p4g"
     },
     {
