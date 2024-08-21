@@ -4,23 +4,23 @@
     @media (max-width: 800px){
         border-bottom: 0;
     }
-    .small {
-        font-size: 0.7em; /* 원래 폰트 크기의 80%로 설정 */
-    }
     
+    .small {
+        font-size: 0.7em; /* 원래 폰트 크기의 70%로 설정 */
+    }
 
     a{
         display: flex;
         padding: 10px;
         margin: 10px;
 
-        em{
+        em {
             width: 40px;
             height: 40px;
             display: block;
-            background-color: var(--chaeeun);
+            background-color: var(--color1); /* 초기 색상 */
             margin-right: 10px;
-            animation: ani 20s 20s ease-in-out infinite;
+            animation: changeBackgroundColor 20s infinite ease-in-out, ani 20s infinite ease-in-out;
         }
 
         span{
@@ -29,6 +29,42 @@
             font-weight: 900;
             text-transform: uppercase;
         }
+    }
+}
+
+@keyframes changeBackgroundColor {
+    0% {
+        background-color: var(--color0);
+    }
+    10% {
+        background-color: var(--color1);
+    }
+    20% {
+        background-color: var(--color2);
+    }
+    30% {
+        background-color: var(--color3);
+    }
+    40% {
+        background-color: var(--color4);
+    }
+    50% {
+        background-color: var(--color5);
+    }
+    60% {
+        background-color: var(--color6);
+    }
+    70% {
+        background-color: var(--color7);
+    }
+    80% {
+        background-color: var(--color8);
+    }
+    90% {
+        background-color: var(--color9);
+    }
+    100% {
+        background-color: var(--color0); /* 원래 색상으로 돌아가기 */
     }
 }
 

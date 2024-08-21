@@ -7,7 +7,7 @@ import { TiStarFullOutline } from "react-icons/ti";
 import { GiHeartKey } from "react-icons/gi";
 import { PiCatDuotone } from "react-icons/pi";
 import { AiFillGithub } from "react-icons/ai";
-import { IoSchool } from "react-icons/io5";
+import { LiaDoveSolid } from "react-icons/lia";
 import { AiFillYoutube } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { PiCatFill } from "react-icons/pi";
@@ -121,6 +121,11 @@ export const searchKeyword = [
 
 export const snsLink = [
     {
+        title: "programmers",
+        url: "https://school.programmers.co.kr/learn/challenges?order=recent",
+        icon: <LiaDoveSolid />
+    },
+    {
         title: "github",
         url: "https://github.com/Chaeeun00",
         icon: <AiFillGithub />
@@ -134,10 +139,5 @@ export const snsLink = [
         title: "instagram",
         url: "https://www.instagram.com/s_songg/",
         icon: <AiOutlineInstagram />
-    },
-    {
-        title: "music",
-        url: "https://www.bu.ac.kr/sites/web/intro/intro.html",
-        icon: <IoSchool />
     },
 ]

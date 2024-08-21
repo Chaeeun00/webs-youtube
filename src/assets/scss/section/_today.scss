@@ -1,24 +1,40 @@
 .today__inner {
     display: flex;
     background-color: var(--black100);
-    margin-bottom: 3.125rem;
+    margin-bottom: 1.5rem;
 }
 
 .today__thumb {
     width: 40%;
 }
 
+@keyframes changeBackgroundColor2 {
+    0% {
+        background-color: var(--color20);
+    }
+    50% {
+        background-color: var(--color40);
+    }
+    100% {
+        background-color: var(--color20);
+    }
+}
+
 .today__text {
     width: 60%;
-    padding: 2rem;
+    padding: 3rem;
 
     .today {
-        background-color: var(--chaeeun);
-        padding: 2px 50px;
+        background-color: var(--color20);
+        padding: 2px 30px;
         border-radius: 20px;
         text-transform: uppercase;
         margin-bottom: 10px;
         display: inline-block;
+
+        /* 애니메이션 설정 */
+        animation: changeBackgroundColor2 2s infinite ease-in-out;
+        animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
     .title {
         font-size: 1.5rem;
@@ -46,7 +62,8 @@
             color: var(--white200);
         }
     }
-} 
+}
+
 
 @media (max-width: 1700px){
     .today__inner {
