@@ -22,7 +22,7 @@ const Home = () => {
       <Today videos={todayText} id="today"/>
       <Developer videos={developer2Text} title="🧸 ちぇうんのおすすめ" id="developer2" />
       <VideoSlider videos={webdText} title="🐈 일본 노래 가사/발음/해석" id="webd" />
-      <VideoSlider videos={websiteText} title="📚 아따맘마로 일본어 공부하기" id="website" />
+      <VideoSlider videos={websiteText} title="📚 애니메이션으로 일본어 공부하기" id="website" />
       <VideoSlider videos={gsapText} title="🌸 하루 10분 일본어" id="gsap" />
       <VideoSlider videos={portfolioText} title="🙉 일본어 듣기 연습" id="portfolio" />
       <VideoSlider videos={youtubeText} title="🤍 𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭" id="youtube" />

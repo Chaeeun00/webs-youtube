@@ -34,7 +34,7 @@ export const headerMenus = [
         src: "/webd"
     },
     {
-        title: "아따맘마(あたしんち)",
+        title: "アニメで勉強",
         icon: <BiBadge />,
         src: "/website"
     },

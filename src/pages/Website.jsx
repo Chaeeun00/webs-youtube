@@ -17,11 +17,11 @@ const Website = () => {
 
     return (
         <Main 
-            title = "아따맘마(あたしんち）🩶"
+            title = "アニメで勉強🩶"
             description="あたしんちです。">
             
             <section id='websitePage' className={websitePageClass}>
-                <h2>📚 아따맘마로 일본어 공부하기</h2>
+                <h2>📚 애니메이션으로 일본어 공부하기</h2>
                 <div className="video__inner">
                     <VideoCards videos={websiteText} />
                 </div>

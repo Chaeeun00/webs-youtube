@@ -42,12 +42,6 @@ export const developerText = [
         channelId: "UCutO2H_AVmWHbzvE92rpxjA"
     },
     {
-        img: "https://yt3.googleusercontent.com/ytc/AOPolaTw2ZRRi6UzhNeunJh03HOeAnKScgRJygpN7_MsVQ=s176-c-k-c0x00ffffff-no-rj",
-        name: "코딩애플",
-        channelAddress: "https://www.youtube.com/@codingapple",
-        channelId: "UCSLrpBAzr-ROVGHQ5EmxnUg"
-    },
-    {
         img: "https://yt3.googleusercontent.com/ytc/AOPolaRfTsQsimyyMrWugbbogh_EdsCWWQsKVqh5Fdvq=s176-c-k-c0x00ffffff-no-rj",
         name: "김왼손의 왼손코딩",
         channelAddress: "https://www.youtube.com/@leftykhim",
@@ -64,12 +58,6 @@ export const developerText = [
         name: "나도코딩",
         channelAddress: "https://www.youtube.com/@nadocoding",
         channelId: "UC7iAOLiALt2rtMVAWWl4pnw"
-    },
-    {
-        img: "https://yt3.googleusercontent.com/ytc/AOPolaTiHU0ol325VdijS5AX4DQomGs6zlD_y_v0I0A6=s176-c-k-c0x00ffffff-no-rj",
-        name: "라매개발자",
-        channelAddress: "https://www.youtube.com/@lamedev",
-        channelId: "UCr3lkp7TJiJTCY4ffRQ1m2A"
     },
     {
         img: "https://yt3.googleusercontent.com/ytc/AOPolaSnppVkSh38WlQrn-7FzBAqlJpMLdGq4jS2GGHzgQ=s176-c-k-c0x00ffffff-no-rj",
