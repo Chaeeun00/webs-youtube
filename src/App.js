@@ -7,6 +7,7 @@ const Today = lazy(() => import('./pages/Today'));
 const Developer = lazy(() => import('./pages/Developer'));
 const Developer2 = lazy(() => import('./pages/Developer2'));
 const Webd = lazy(() => import('./pages/Webd'));
+const Webd2 = lazy(() => import('./pages/Webd2'));
 const Website = lazy(() => import('./pages/Website'));
 const Gsap = lazy(() => import('./pages/Gsap'));
 const Port = lazy(() => import('./pages/Port'));
@@ -26,6 +27,7 @@ const App = () => {
                   <Route path="/developer" element={<Developer />} />
                   <Route path="/developer2" element={<Developer2 />} />
                   <Route path="/webd" element={<Webd />} />
+                  <Route path="/webd2" element={<Webd2 />} />
                   <Route path="/website" element={<Website />} />
                   <Route path="/gsap" element={<Gsap />} />
                   <Route path="/port" element={<Port />} />

@@ -19,19 +19,24 @@ export const headerMenus = [
         src: "/"
     },
     {
-        title: "ちぇうんのおすすめ",
-        icon: <PiCatDuotone />,
-        src: "/developer2"
-    },
-    {
         title: "추천 영상",
         icon: <BiHeart />,
         src: "/today"
     },
     {
+        title: "ちぇうんのおすすめ",
+        icon: <PiCatDuotone />,
+        src: "/developer2"
+    },
+    {
         title: "日本の歌",
         icon: <IoMdMusicalNotes />,
         src: "/webd"
+    },
+    {
+        title: "tuki.",
+        icon: <IoMdMusicalNotes />,
+        src: "/webd2"
     },
     {
         title: "アニメで勉強",

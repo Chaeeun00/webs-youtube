@@ -5,6 +5,7 @@ import Developer from '../components/contents/Developer'
 import VideoSlider from '../components/videos/VideoSlider'
 
 import {webdText} from '../data/webd'
+import {webd2Text} from '../data/webd2'
 import {websiteText} from '../data/website'
 import {gsapText} from '../data/gsap'
 import {portfolioText} from '../data/portfolio'
@@ -22,6 +23,7 @@ const Home = () => {
       <Today videos={todayText} id="today"/>
       <Developer videos={developer2Text} title="🧸 ちぇうんのおすすめ" id="developer2" />
       <VideoSlider videos={webdText} title="🐈 일본 노래 가사/발음/해석" id="webd" />
+      <VideoSlider videos={webd2Text} title="🌙 tuki." id="webd2" />
       <VideoSlider videos={websiteText} title="📚 애니메이션으로 일본어 공부하기" id="website" />
       <VideoSlider videos={gsapText} title="🌸 하루 10분 일본어" id="gsap" />
       <VideoSlider videos={portfolioText} title="🙉 일본어 듣기 연습" id="portfolio" />
