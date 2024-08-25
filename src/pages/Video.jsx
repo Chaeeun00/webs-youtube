@@ -11,19 +11,19 @@ import { CiRead } from "react-icons/ci";
 
 const Video = () => {
     const { videoId } = useParams();
-    const [ videoDetail, setVideoDetail ] = useState(null);
+    const [videoDetail, setVideoDetail] = useState(null);
 
     useEffect(() => {
         fetchFromAPI(`videos?part=snippet,statistics&id=${videoId}`)
-        .then((data) => {
-            console.log(data);
-            setVideoDetail(data.items[0])
-        })
+            .then((data) => {
+                console.log(data);
+                setVideoDetail(data.items[0])
+            })
     }, [videoId]);
 
     return (
         <Main 
-            title = "video"
+            title="video"
             description="유튜브 영상을 볼 수 있습니다.">
             
             <section id='videoViewPage'>
@@ -44,7 +44,9 @@ const Video = () => {
                             </h2>
                             <div className='video__channel'>
                                 <div className='id'>
-                                    <Link to='/channel/'>{videoDetail.snippet.channelTitle}</Link>
+                                    <Link to={`/channel/${videoDetail.snippet.channelId}`}>
+                                        {videoDetail.snippet.channelTitle}
+                                    </Link>
                                 </div>
                                 <div className='count'>
                                     <span className='view'><CiRead />{videoDetail.statistics.viewCount}</span>
@@ -63,4 +65,4 @@ const Video = () => {
     )
 }
 
-export default Video
+export default Video;
