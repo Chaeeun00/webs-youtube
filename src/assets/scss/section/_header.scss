@@ -37,6 +37,13 @@
     }
 }
 
+/* active 상태에서 로고가 숨겨지지 않도록 설정 */
+header.active .header__logo {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+
 @keyframes changeBackgroundColor {
     0% {
         background-color: var(--color0);
