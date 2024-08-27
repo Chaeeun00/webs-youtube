@@ -1,10 +1,10 @@
 .header__logo {
-    //border-bottom: 1px solid var(--black100);
+    border-bottom: 1px solid var(--black100);
     display: block;
     visibility: visible;
     opacity: 1;
     position: relative;
-    z-index: 1000;
+    z-index: 2000;
 
     @media (max-width: 800px){
         border-bottom: 0;
@@ -17,7 +17,8 @@
     a{
         display: flex;
         padding: 10px;
-        margin: 15px;
+        margin: 10px;
+        margin-left: 30px;
 
         em {
             width: 40px;
@@ -29,7 +30,7 @@
         }
 
         span{
-            font-size: 18px;
+            font-size: 20px;
             line-height: 1;
             font-weight: 900;
             text-transform: uppercase;
