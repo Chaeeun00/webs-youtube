@@ -1,8 +1,5 @@
 .header__logo {
     //border-bottom: 1px solid var(--black100);
-    z-index: 1000;
-    opacity: 1;
-    visibility: visible;
     position: sticky;
 
     @media (max-width: 800px){
@@ -16,19 +13,19 @@
     a{
         display: flex;
         padding: 10px;
-        margin: 10px;
+        margin: 15px;
 
         em {
             width: 40px;
             height: 40px;
             display: block;
             background-color: var(--color1); /* 초기 색상 */
-            margin-right: 10px;
+            margin-right: 20px;
             animation: changeBackgroundColor 20s infinite ease-in-out, ani 20s infinite ease-in-out;
         }
 
         span{
-            font-size: 20px;
+            font-size: 18px;
             line-height: 1;
             font-weight: 900;
             text-transform: uppercase;
