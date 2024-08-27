@@ -6,9 +6,17 @@
     position: relative;
     z-index: 9999;
 
-    @media (max-width: 800px){
-        border-bottom: 0;
+    @media (max-width: 800px) {
+        .header__logo {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            z-index: 9999;
+            visibility: visible;
+            opacity: 1;
+        }
     }
+    
     
     .small {
         font-size: 0.7em; /* 원래 폰트 크기의 70%로 설정 */
