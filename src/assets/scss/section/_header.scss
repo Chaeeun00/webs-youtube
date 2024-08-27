@@ -1,19 +1,18 @@
 .header__logo {
-    border-bottom: 1px solid var(--black100);
+    //border-bottom: 1px solid var(--black100);
     display: block;
     visibility: visible;
     opacity: 1;
     position: relative;
     z-index: 9999;
 
-    @media (max-width: 800px) {
+    @media (max-width: 500px) {
         .header__logo {
-            position: fixed;
-            top: 10px;
-            left: 10px;
-            z-index: 9999;
+            display: block;
             visibility: visible;
             opacity: 1;
+            position: relative;
+            z-index: 9999;
         }
     }
     
