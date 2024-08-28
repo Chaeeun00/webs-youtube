@@ -1,22 +1,23 @@
 .header__logo {
     //border-bottom: 1px solid var(--black100);
-    position: fixed !important;
-    top: 10px !important;
-    left: 10px !important;
-    z-index: 9999 !important;
-    visibility: visible !important;
-    opacity: 1 !important;
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    position: relative;
+    z-index: 9999;
 
     @media (max-width: 800px) {
-        .header__logo {
-            position: fixed !important;
-            top: 10px !important;
-            left: 10px !important;
-            z-index: 9999 !important;
-            visibility: visible !important;
-            opacity: 1 !important;
-        }
+    .header__logo {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        z-index: 9999;
+        visibility: visible;
+        opacity: 1;
     }
+}
+
+    
     
     .small {
         font-size: 0.7em; /* 원래 폰트 크기의 70%로 설정 */
@@ -44,8 +45,6 @@
         }
     }
 }
-
-
 
 /* active 상태에서 로고가 숨겨지지 않도록 설정 */
 header.active .header__logo {
@@ -93,7 +92,7 @@ header.active .header__logo {
 
 .header__menu{
     margin-top: 20px;
-    padding: 80px 0;
+    padding: 10px 0;
     .menu{
         //border-bottom: 1px solid var(--black100);
         li{
