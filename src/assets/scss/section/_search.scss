@@ -28,9 +28,9 @@
 
 @media (max-width: 800px){
     .search__inner {
-        position: fixed;
+        //position: fixed;
         left: 0;
-        top: 50;
+        top: 0;
         width: 100%;
         z-index: 1000;
         background-color: var(--blackAlpha400);
