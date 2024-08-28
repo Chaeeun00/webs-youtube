@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Logo = ({ toggleMenu }) => {
+const Logo = () => {
     return (
         <h1 className='header__logo'>
             <Link to='/'>
-                <em aria-hidden='true' onClick={toggleMenu}></em>
+                <em aria-hidden='true'></em>
                 <span>チェウン<span className="small">の</span><br />ユーチューブ</span>
             </Link>
         </h1>

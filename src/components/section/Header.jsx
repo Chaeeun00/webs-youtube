@@ -13,7 +13,7 @@ const Header = () => {
 
     return (
         <header id='header' role='banner' className={isMenuActive ? 'active' : ''}>
-            <Logo toggleMenu={toggleMenu} />
+            <Logo />
             <Menu />
             <Sns />
         </header>
