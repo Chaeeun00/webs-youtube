@@ -6,23 +6,6 @@
     position: relative;
     z-index: 9999;
 
-    @media (max-width: 800px) {
-    .header__logo {
-        position: fixed;
-        top: 10px;
-        left: 10px;
-        z-index: 9999;
-        visibility: visible;
-        opacity: 1;
-    }
-}
-
-    
-    
-    .small {
-        font-size: 0.7em; /* 원래 폰트 크기의 70%로 설정 */
-    }
-
     a{
         display: flex;
         padding: 10px;
@@ -43,52 +26,12 @@
             font-weight: 900;
             text-transform: uppercase;
         }
+
+        .small {
+            font-size: 0.7em; /* 원래 폰트 크기의 70%로 설정 */
+        }
     }
 }
-
-/* active 상태에서 로고가 숨겨지지 않도록 설정 */
-header.active .header__logo {
-    display: block;
-    visibility: visible;
-    opacity: 1;
-}
-
-@keyframes changeBackgroundColor {
-    0% {
-        background-color: var(--color0);
-    }
-    10% {
-        background-color: var(--color1);
-    }
-    20% {
-        background-color: var(--color2);
-    }
-    30% {
-        background-color: var(--color3);
-    }
-    40% {
-        background-color: var(--color4);
-    }
-    50% {
-        background-color: var(--color5);
-    }
-    60% {
-        background-color: var(--color6);
-    }
-    70% {
-        background-color: var(--color7);
-    }
-    80% {
-        background-color: var(--color8);
-    }
-    90% {
-        background-color: var(--color9);
-    }
-    100% {
-        background-color: var(--color0); /* 원래 색상으로 돌아가기 */
-    }
-}
-
 
 .header__menu{
     margin-top: 20px;
@@ -198,7 +141,6 @@ header.active .header__logo {
     }
 }
 
-
 @keyframes ani{
     0%{
         transform: rotate(0) scale(1);
@@ -211,5 +153,52 @@ header.active .header__logo {
     100%{
         transform: rotate(0) scale(1);
         border-radius: 0;
+    }
+}
+
+@keyframes changeBackgroundColor {
+    0% {
+        background-color: var(--color0);
+    }
+    10% {
+        background-color: var(--color1);
+    }
+    20% {
+        background-color: var(--color2);
+    }
+    30% {
+        background-color: var(--color3);
+    }
+    40% {
+        background-color: var(--color4);
+    }
+    50% {
+        background-color: var(--color5);
+    }
+    60% {
+        background-color: var(--color6);
+    }
+    70% {
+        background-color: var(--color7);
+    }
+    80% {
+        background-color: var(--color8);
+    }
+    90% {
+        background-color: var(--color9);
+    }
+    100% {
+        background-color: var(--color0); /* 원래 색상으로 돌아가기 */
+    }
+}
+
+@media (max-width: 800px) {
+    .header__logo {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        z-index: 9999;
+        visibility: visible;
+        opacity: 1;
     }
 }
