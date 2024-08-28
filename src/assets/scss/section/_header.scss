@@ -5,11 +5,13 @@
     display: block; /* 또는 inline-block, inline 등 */
     visibility: visible;
 
+    /*
     @media (min-width: 800px) {
         .header__logo {
             border-bottom: 0;
         }
     }
+        */
     
     .small {
         font-size: 0.7em; /* 원래 폰트 크기의 70%로 설정 */
