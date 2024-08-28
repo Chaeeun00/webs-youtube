@@ -1,11 +1,15 @@
 .header__logo {
-    position: fixed;
-    top: calc(10px + 2vh); /* 화면 높이에 따라 top 위치를 동적으로 조정 */
-    left: 10px;
-    z-index: 20000;
-    display: block;
+    position: absolute;
+    //border-bottom: 1px solid var(--black100);
+    z-index: 1000;
+    display: block; /* 또는 inline-block, inline 등 */
     visibility: visible;
-    
+
+    @media (min-width: 800px) {
+        .header__logo {
+            border-bottom: 0;
+        }
+    }
     
     .small {
         font-size: 0.7em; /* 원래 폰트 크기의 70%로 설정 */
@@ -13,9 +17,8 @@
 
     a{
         display: flex;
-        padding: 8px;
-        margin: 8px;
-        position: relative;
+        padding: 10px;
+        margin: 10px;
 
         em {
             width: 40px;
@@ -193,11 +196,5 @@
     100%{
         transform: rotate(0) scale(1);
         border-radius: 0;
-    }
-}
-
-@media (max-height: 500px) {
-    .header__logo {
-        top: 5px; /* 화면 높이가 작을 때 top 위치를 조정 */
     }
 }
