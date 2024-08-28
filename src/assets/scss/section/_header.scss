@@ -1,10 +1,11 @@
 .header__logo {
     //border-bottom: 1px solid var(--black100);
-    display: block;
-    visibility: visible;
-    opacity: 1;
-    position: relative;
-    z-index: 9999;
+    position: fixed !important;
+    top: 10px !important;
+    left: 10px !important;
+    z-index: 9999 !important;
+    visibility: visible !important;
+    opacity: 1 !important;
 
     @media (max-width: 800px) {
         .header__logo {
@@ -43,6 +44,8 @@
         }
     }
 }
+
+
 
 /* active 상태에서 로고가 숨겨지지 않도록 설정 */
 header.active .header__logo {
@@ -90,7 +93,7 @@ header.active .header__logo {
 
 .header__menu{
     margin-top: 20px;
-    padding: 10px 0;
+    padding: 80px 0;
     .menu{
         //border-bottom: 1px solid var(--black100);
         li{
