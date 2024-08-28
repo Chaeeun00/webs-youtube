@@ -1,16 +1,7 @@
 .header__logo {
     //border-bottom: 1px solid var(--black100);
-    position: fixed;
-    top: 10px; /* 또는 적절한 값 */
-    left: 10px; /* 또는 적절한 값 */
-    z-index: 3000;
-    visibility: visible;
-    opacity: 1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 
-    a{
+    a {
         display: flex;
         padding: 10px;
         margin: 10px;
@@ -19,32 +10,30 @@
             width: 40px;
             height: 40px;
             display: block;
-            background-color: var(--color1); /* 초기 색상 */
-            margin-right: 20px;
-            animation: changeBackgroundColor 20s infinite ease-in-out, ani 20s infinite ease-in-out;
+            background-color: var(--white);
+            margin-right: 10px;
+            animation: ani 20s 20s ease-in-out infinite;
         }
 
-        span{
+        span {
             font-size: 20px;
             line-height: 1;
             font-weight: 900;
             text-transform: uppercase;
         }
-
-        .small {
-            font-size: 0.7em; /* 원래 폰트 크기의 70%로 설정 */
-        }
     }
 }
 
-.header__menu{
-    margin-top: 20px;
-    padding: 80px 0;
-    .menu{
-        //border-bottom: 1px solid var(--black100);
-        li{
+.header__menu {
+    padding: 10px 0;
+
+    .menu {
+        border-bottom: 1px solid var(--black100);
+
+        li {
             margin-bottom: 5px;
-            a{
+
+            a {
                 font-size: 1rem;
                 display: block;
                 padding: 0.9rem 2rem 0.9rem 3.125rem;
@@ -55,7 +44,7 @@
                 color: var(--white200);
                 transition: all 0.3s;
 
-                svg{
+                svg {
                     width: 1.25rem;
                     height: 1.25rem;
                     position: absolute;
@@ -63,38 +52,41 @@
                     top: 0.75rem;
                 }
 
-                &:hover{
+                &:hover {
                     background-color: var(--black100);
                     color: var(--white);
                 }
             }
 
-            &.active a{
+            &.active a {
                 background-color: var(--black100);
                 color: var(--white);
             }
         }
     }
-    .keyword{
+
+    .keyword {
         padding: 1.25rem;
-        li{
+
+        li {
             display: inline-block;
 
-            a{
+            a {
                 display: inline-block;
                 padding: 5px 15px;
-                border: 1.5px solid var(--black200);
+                border: 1px solid var(--black200);
                 font-size: 0.8rem;
                 border-radius: 40px;
                 margin: 3px 1px;
                 transition: all 0.3s;
 
-                &:hover{
+                &:hover {
                     background-color: var(--black100);
                     color: var(--white);
                 }
             }
-            &.active a{
+
+            &.active a {
                 background-color: var(--black100);
                 color: var(--white);
             }
@@ -111,106 +103,29 @@
     text-align: center;
     padding: 15px 0 10px;
     background-color: var(--blackAlpha100);
-    backdrop-filter: blur(5px);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    /*
-    @media (max-width: 800px) {
-        display: none;
-    }
-    */
+    backdrop-filter: blur(10px);
 
     li {
         display: inline-block;
-        position: relative;
-        margin: 0 25px; /* li 요소 간 간격 */
-        right: 10px;
-        top: -10px;
 
-        svg {
-            position: absolute;
-            left: 0;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 20px;
-            height: 20px;
-            z-index: 1; /* a 요소보다 위에 오도록 설정 */
-        }
         a {
-            position: absolute;
-            left: 0;
-            top: 50%;
-            transform: translateY(-50%);
-            padding: 5px 10px;
-            z-index: 2; /* svg 요소보다 위에 오도록 설정 */
-            background-color: transparent; /* 배경색을 투명으로 설정 */
+            padding: 5px 7px;
+            display: inline-block;
         }
     }
 }
 
-@keyframes ani{
-    0%{
+@keyframes ani {
+    0% {
         transform: rotate(0) scale(1);
         border-radius: 0;
     }
-    50%{
+    50% {
         transform: rotate(720deg) scale(0.5);
         border-radius: 20px;
     }
-    100%{
+    100% {
         transform: rotate(0) scale(1);
         border-radius: 0;
-    }
-}
-
-@keyframes changeBackgroundColor {
-    0% {
-        background-color: var(--color0);
-    }
-    10% {
-        background-color: var(--color1);
-    }
-    20% {
-        background-color: var(--color2);
-    }
-    30% {
-        background-color: var(--color3);
-    }
-    40% {
-        background-color: var(--color4);
-    }
-    50% {
-        background-color: var(--color5);
-    }
-    60% {
-        background-color: var(--color6);
-    }
-    70% {
-        background-color: var(--color7);
-    }
-    80% {
-        background-color: var(--color8);
-    }
-    90% {
-        background-color: var(--color9);
-    }
-    100% {
-        background-color: var(--color0); /* 원래 색상으로 돌아가기 */
-    }
-}
-
-@media (max-width: 800px) {
-    .header__logo {
-        position: fixed;
-        top: 10px;
-        left: 10px;
-        z-index: 2500;
-        visibility: visible;
-        opacity: 1;
-    }
-    .search__inner {
-        z-index: 2000; /* 로고보다 낮게 설정 */
     }
 }
