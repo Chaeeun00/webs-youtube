@@ -1,6 +1,10 @@
 .header__logo {
     //border-bottom: 1px solid var(--black100);
 
+    @media (max-width: 800px){
+        border-bottom: 0;
+    }
+
     a{
         display: flex;
         padding: 10px;
@@ -30,6 +34,7 @@
 
 .header__menu{
     padding: 10px 0;
+
     .menu{
         border-bottom: 1px;
         li{
@@ -99,13 +104,9 @@
     right: 0;
     width: 260px;
     text-align: center;
-    padding: 10px 10px;
+    padding: 15px 0 10px;
     background-color: var(--blackAlpha100);
-    backdrop-filter: blur(3px);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 20px;
+    backdrop-filter: blur(10px);
 
     @media (max-width: 800px) {
         display: none;
