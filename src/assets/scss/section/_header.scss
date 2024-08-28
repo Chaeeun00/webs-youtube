@@ -1,21 +1,53 @@
 .header__logo {
-    //border-bottom: 1px solid var(--black100);
+    position: fixed; /* absolute에서 fixed로 변경 */
+    top: 10px; /* 화면 상단에 고정 */
+    left: 10px; /* 좌측에 고정 */
+    z-index: 50000;
+    display: block; 
+    visibility: visible;
+    
 
-    @media (max-width: 800px){
-        border-bottom: 0;
+    @media (max-width: 800px) {
+        .header__logo {
+            position: fixed; /* fixed로 변경하여 고정 */
+            top: 5px; /* 모바일에서 로고가 화면 안에 보이도록 위치 조정 */
+            left: 5px;
+            z-index: 2500;
+            visibility: visible;
+            
+            a {
+                padding: 5px; /* 모바일에서 패딩 축소 */
+                margin: 0; /* 모바일에서 margin 제거 */
+            }
+    
+            em {
+                width: 30px; /* 로고 크기 축소 */
+                height: 30px;
+            }
+    
+            span {
+                font-size: 16px; /* 텍스트 크기 축소 */
+            }
+        }
+    }
+    
+    
+    .small {
+        font-size: 0.7em; /* 원래 폰트 크기의 70%로 설정 */
     }
 
     a{
         display: flex;
         padding: 10px;
-        margin: 10px;
+        margin: 0px;
+        position: relative;
 
         em {
             width: 40px;
             height: 40px;
             display: block;
             background-color: var(--color1); /* 초기 색상 */
-            margin-right: 20px;
+            margin-right: 10px;
             animation: changeBackgroundColor 20s infinite ease-in-out, ani 20s infinite ease-in-out;
         }
 
@@ -25,18 +57,51 @@
             font-weight: 900;
             text-transform: uppercase;
         }
-
-        .small {
-            font-size: 0.7em; /* 원래 폰트 크기의 70%로 설정 */
-        }
     }
 }
 
-.header__menu{
-    padding: 10px 0;
+@keyframes changeBackgroundColor {
+    0% {
+        background-color: var(--color0);
+    }
+    10% {
+        background-color: var(--color1);
+    }
+    20% {
+        background-color: var(--color2);
+    }
+    30% {
+        background-color: var(--color3);
+    }
+    40% {
+        background-color: var(--color4);
+    }
+    50% {
+        background-color: var(--color5);
+    }
+    60% {
+        background-color: var(--color6);
+    }
+    70% {
+        background-color: var(--color7);
+    }
+    80% {
+        background-color: var(--color8);
+    }
+    90% {
+        background-color: var(--color9);
+    }
+    100% {
+        background-color: var(--color0); /* 원래 색상으로 돌아가기 */
+    }
+}
 
+
+.header__menu{
+    margin-top: 80px;
+    padding: 10px 0;
     .menu{
-        border-bottom: 1px;
+        border-bottom: 1px solid var(--black100);
         li{
             margin-bottom: 5px;
             a{
@@ -78,7 +143,7 @@
             a{
                 display: inline-block;
                 padding: 5px 15px;
-                border: 1.5px solid var(--black200);
+                border: 1px solid var(--black200);
                 font-size: 0.8rem;
                 border-radius: 40px;
                 margin: 3px 1px;
@@ -106,7 +171,7 @@
     text-align: center;
     padding: 15px 0 10px;
     background-color: var(--blackAlpha100);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
 
     @media (max-width: 800px) {
         display: none;
@@ -140,6 +205,7 @@
     }
 }
 
+
 @keyframes ani{
     0%{
         transform: rotate(0) scale(1);
@@ -152,55 +218,5 @@
     100%{
         transform: rotate(0) scale(1);
         border-radius: 0;
-    }
-}
-
-@keyframes changeBackgroundColor {
-    0% {
-        background-color: var(--color0);
-    }
-    10% {
-        background-color: var(--color1);
-    }
-    20% {
-        background-color: var(--color2);
-    }
-    30% {
-        background-color: var(--color3);
-    }
-    40% {
-        background-color: var(--color4);
-    }
-    50% {
-        background-color: var(--color5);
-    }
-    60% {
-        background-color: var(--color6);
-    }
-    70% {
-        background-color: var(--color7);
-    }
-    80% {
-        background-color: var(--color8);
-    }
-    90% {
-        background-color: var(--color9);
-    }
-    100% {
-        background-color: var(--color0); /* 원래 색상으로 돌아가기 */
-    }
-}
-
-@media (max-width: 800px) {
-    .header__logo {
-        position: fixed;
-        top: 10px;
-        left: 10px;
-        z-index: 2500;
-        visibility: visible;
-        opacity: 1;
-    }
-    .search__inner {
-        z-index: 2000; /* 로고보다 낮게 설정 */
     }
 }
