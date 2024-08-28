@@ -4,7 +4,7 @@
     visibility: visible;
     opacity: 1;
     position: relative;
-    z-index: 9999;
+    z-index: 3000;
 
     a{
         display: flex;
@@ -197,8 +197,11 @@
         position: fixed;
         top: 10px;
         left: 10px;
-        z-index: 9999;
+        z-index: 2500;
         visibility: visible;
         opacity: 1;
+    }
+    .search__inner {
+        z-index: 2000; /* 로고보다 낮게 설정 */
     }
 }
