@@ -1,23 +1,7 @@
 .header__logo {
-    position: absolute;
-    //border-bottom: 1px solid var(--black100);
-    z-index: 1000;
-    display: block; /* 또는 inline-block, inline 등 */
-    visibility: visible;
+    border-bottom: 1px solid var(--black100);
 
-    
-    @media (min-width: 800px) {
-        .header__logo {
-            border-bottom: 0;
-        }
-    }
-        
-    
-    .small {
-        font-size: 0.7em; /* 원래 폰트 크기의 70%로 설정 */
-    }
-
-    a{
+    a {
         display: flex;
         padding: 10px;
         margin: 10px;
@@ -26,12 +10,12 @@
             width: 40px;
             height: 40px;
             display: block;
-            background-color: var(--color1); /* 초기 색상 */
+            background-color: var(--white);
             margin-right: 10px;
-            animation: changeBackgroundColor 20s infinite ease-in-out, ani 20s infinite ease-in-out;
+            animation: ani 20s 20s ease-in-out infinite;
         }
 
-        span{
+        span {
             font-size: 20px;
             line-height: 1;
             font-weight: 900;
@@ -40,51 +24,16 @@
     }
 }
 
-@keyframes changeBackgroundColor {
-    0% {
-        background-color: var(--color0);
-    }
-    10% {
-        background-color: var(--color1);
-    }
-    20% {
-        background-color: var(--color2);
-    }
-    30% {
-        background-color: var(--color3);
-    }
-    40% {
-        background-color: var(--color4);
-    }
-    50% {
-        background-color: var(--color5);
-    }
-    60% {
-        background-color: var(--color6);
-    }
-    70% {
-        background-color: var(--color7);
-    }
-    80% {
-        background-color: var(--color8);
-    }
-    90% {
-        background-color: var(--color9);
-    }
-    100% {
-        background-color: var(--color0); /* 원래 색상으로 돌아가기 */
-    }
-}
-
-
-.header__menu{
-    margin-top: 80px;
+.header__menu {
     padding: 10px 0;
-    .menu{
+
+    .menu {
         border-bottom: 1px solid var(--black100);
-        li{
+
+        li {
             margin-bottom: 5px;
-            a{
+
+            a {
                 font-size: 1rem;
                 display: block;
                 padding: 0.9rem 2rem 0.9rem 3.125rem;
@@ -95,7 +44,7 @@
                 color: var(--white200);
                 transition: all 0.3s;
 
-                svg{
+                svg {
                     width: 1.25rem;
                     height: 1.25rem;
                     position: absolute;
@@ -103,24 +52,26 @@
                     top: 0.75rem;
                 }
 
-                &:hover{
+                &:hover {
                     background-color: var(--black100);
                     color: var(--white);
                 }
             }
 
-            &.active a{
+            &.active a {
                 background-color: var(--black100);
                 color: var(--white);
             }
         }
     }
-    .keyword{
+
+    .keyword {
         padding: 1.25rem;
-        li{
+
+        li {
             display: inline-block;
 
-            a{
+            a {
                 display: inline-block;
                 padding: 5px 15px;
                 border: 1px solid var(--black200);
@@ -129,12 +80,13 @@
                 margin: 3px 1px;
                 transition: all 0.3s;
 
-                &:hover{
+                &:hover {
                     background-color: var(--black100);
                     color: var(--white);
                 }
             }
-            &.active a{
+
+            &.active a {
                 background-color: var(--black100);
                 color: var(--white);
             }
@@ -152,10 +104,14 @@
     padding: 15px 0 10px;
     background-color: var(--blackAlpha100);
     backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
     @media (max-width: 800px) {
         display: none;
     }
+    
 
     li {
         display: inline-block;
@@ -185,17 +141,16 @@
     }
 }
 
-
-@keyframes ani{
-    0%{
+@keyframes ani {
+    0% {
         transform: rotate(0) scale(1);
         border-radius: 0;
     }
-    50%{
+    50% {
         transform: rotate(720deg) scale(0.5);
         border-radius: 20px;
     }
-    100%{
+    100% {
         transform: rotate(0) scale(1);
         border-radius: 0;
     }
