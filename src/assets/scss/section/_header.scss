@@ -1,27 +1,34 @@
 .header__logo {
-    //border-bottom: 1px solid var(--black100);
+    position: fixed; /* 헤더 밖에서 고정된 위치 */
+    top: 10px;
+    left: 10px;
+    z-index: 20000;
+    display: block;
+    visibility: visible;
 
     @media (max-width: 800px){
         border-bottom: 0;
     }
+    
 
     a {
         display: flex;
-        margin: 15px;
+        padding: 10px;
+        margin: 10px;
 
         em {
-            width: 30px;
-            height: 30px;
+            width: 40px;
+            height: 40px;
             display: block;
-            background-color: var(--white);
+            background-color: var(--color1);
             margin-right: 10px;
-            animation: ani 20s 20s ease-in-out infinite;
+            animation: changeBackgroundColor 20s infinite ease-in-out, ani 20s infinite ease-in-out;
         }
 
         span {
-            font-size: 18px;
+            font-size: 20px;
             line-height: 1;
-            font-weight: 1000;
+            font-weight: 900;
             text-transform: uppercase;
         }
     }
