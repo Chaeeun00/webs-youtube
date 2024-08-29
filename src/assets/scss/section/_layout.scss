@@ -27,20 +27,21 @@
 
 @media (max-width: 800px){
     #header {
-        left: -260px;
-        background-color: var(--black);
+        left: 0; /* 헤더가 처음에 보이도록 */
+        background-color: var(--black200);
         transition: left 0.3s;
 
         h1 {
             position: fixed;
-            left: 0;
-            top: 0;
+            left: 10px; /* 로고가 고정 위치에 보이도록 설정 */
+            top: 10px;
+            z-index: 1001; /* 다른 요소들보다 위에 보이도록 설정 */
         }
         .header__menu {
             margin-top: 90px;
-        };
+        }
         &.active {
-            left: 0;
+            left: -260px; /* 토글 시 메뉴가 열리도록 헤더 이동 */
         }
     }
     #main {
