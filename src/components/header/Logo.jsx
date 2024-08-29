@@ -6,7 +6,7 @@ const Logo = ({ toggleMenu, isMenuActive }) => {
         <h1 className={`header__logo ${isMenuActive ? 'menu-active' : ''}`}>
             <Link to='/'>
                 <em aria-hidden='true' onClick={toggleMenu}></em>
-                <span>songs<br />youtube</span>
+                <span>チェウンの ☁️<br />ユーチューブ</span>
             </Link>
         </h1>
     )
