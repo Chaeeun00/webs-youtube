@@ -21,7 +21,7 @@ const Today = () => {
             description="오늘의 추천 유튜브 영상입니다."
         >
             <section id='todayPage' className={todayPageClass}>
-                <h2>🔥 추천 영상입니다.</h2>
+                <h2>🔥 추천 영상</h2>
 
                 {todayText.map((today, key) => (
                     <div className='today__inner' key={key}>
