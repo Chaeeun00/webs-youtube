@@ -7,12 +7,11 @@
 
     a {
         display: flex;
-        padding: 5%;
-        margin: 3px;
+        margin: 15px;
 
         em {
-            width: 40px;
-            height: 40px;
+            width: 30px;
+            height: 30px;
             display: block;
             background-color: var(--white);
             margin-right: 10px;
@@ -20,9 +19,9 @@
         }
 
         span {
-            font-size: 20px;
+            font-size: 18px;
             line-height: 1;
-            font-weight: 900;
+            font-weight: 1000;
             text-transform: uppercase;
         }
     }
